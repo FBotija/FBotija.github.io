@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Landing Page - Estilo Hyperlink</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <span class="glitch" data-text="HYPERLINK">HYPERLINK</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">INICIO</a></li>
+                    <li><a href="#about" class="nav-link">ACERCA</a></li>
+                    <li><a href="#projects" class="nav-link">PROYECTOS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="cyber-text">BIENVENIDO AL</span><br>
+                        <span class="glitch-main" data-text="FUTURO">FUTURO</span>
+                    </h1>
+                    <p class="hero-subtitle">Donde lo retro se encuentra con lo moderno</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">EXPLORAR PROYECTOS</a>
+                        <a href="#contact" class="btn btn-secondary">CONTACTAR</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="cyber-grid"></div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="section-header">
+                    <h2 class="section-title">ACERCA DE MÍ</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Desarrollador apasionado por crear experiencias digitales únicas. 
+                           Combinando la estética retro de las primeras páginas web con las 
+                           tecnologías modernas más avanzadas.</p>
+                        <div class="skills">
+                            <h3>TECNOLOGÍAS</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <div class="section-header">
+                    <h2 class="section-title">PROYECTOS</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Proyecto Alpha</h3>
+                            <div class="project-status">ACTIVO</div>
+                        </div>
+                        <p>Aplicación web moderna con estilo retro hyperlink</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">DEMO</a>
+                            <a href="#" class="project-link">CÓDIGO</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Proyecto Beta</h3>
+                            <div class="project-status">EN DESARROLLO</div>
+                        </div>
+                        <p>Plataforma de e-commerce futurista</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">DEMO</a>
+                            <a href="#" class="project-link">CÓDIGO</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Proyecto Gamma</h3>
+                            <div class="project-status">COMPLETADO</div>
+                        </div>
+                        <p>Juego web con gráficos pixel art</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">DEMO</a>
+                            <a href="#" class="project-link">CÓDIGO</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="section-header">
+                    <h2 class="section-title">CONTACTO</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-label">EMAIL:</span>
+                            <a href="mailto:tu@email.com" class="contact-link">tu@email.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">GITHUB:</span>
+                            <a href="https://github.com/tuusuario" class="contact-link" target="_blank">github.com/tuusuario</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">LINKEDIN:</span>
+                            <a href="https://linkedin.com/in/tuusuario" class="contact-link" target="_blank">linkedin.com/in/tuusuario</a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">NOMBRE:</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">EMAIL:</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">MENSAJE:</label>
+                                <textarea id="message" name="message" class="form-textarea" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">ENVIAR MENSAJE</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 HYPERLINK. TODOS LOS DERECHOS RESERVADOS.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">PRIVACIDAD</a>
+                    <a href="#" class="footer-link">TÉRMINOS</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
